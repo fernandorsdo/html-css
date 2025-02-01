@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outras formatações</title>
+</head>
+<body>
+    <h1>outras formatações</h1>
+    <h2>codigo-fonte / pré-formatação</h2>
+    <p>o comando <code>document.getElementById('teste')</code> é escrito em linguagem javascript</p> <!--fonte monoespaçada, otima pra ler codigos-->
+    <pre>
+        <code>
+    num = int(input('Digite um numero'))
+    if num % 2 == 0;
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O numero {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre> <!--use a tag pre, para manter os paragrafos em codigos. use a tecla shift+tab para regular espaços em textos selecionados, ou apenas tab-->
+    <h2>citaçoes simples</h2>
+    <p>como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p> <!--use a tag Q para citações apenas, dando um significado-->
+    <h2>citações completas</h2>
+    <p>segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://books.google.com.br/books?id=-LdlRI0fT_UC&newbks=0&printsec=frontcover&pg=PA123&dq=HTML&hl=pt-BR&source=newbks_fb&redir_esc=y#v=onepage&q=HTML&f=false">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elemtos HTML neste capitulo descrevem os blocos de texto.
+    </blockquote> <!--nao mudarará nada no visual do site, mas internamente, nos mecanismos de busca, google, etc, saberá que tem uma relação com o link citado-->
+    <h2>abreviacoes</h2>
+    <p>estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CS</abbr>S. Estou adorando!</p> <!--pop up com significado-->
+    <h2>texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    
+</body>
+</html>
